@@ -1,0 +1,147 @@
+
+
+
+
+/* Smartphones large size (portrait and landscape) ----------- */
+@media screen and (max-width : 768px){
+	
+.car_sec {
+    margin-top: 200px;
+}
+.logo_img {
+    width: 120px;
+    height: 120px;
+}
+.navbar {
+    padding: 2% 0 2% 16%;
+}
+.small_ig_gho {
+    margin-top: 90px;
+}
+.footer {
+    margin-top: 30px;
+}
+.video_section_vd {
+    margin-top: 160px;
+}
+.video_section {
+    margin-top: 50px;
+}
+	
+	
+}
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (max-width : 992px){
+	
+	
+
+}
+/* iPads (portrait and landscape) ----------- */
+@media screen and (max-width : 1200px){
+	
+.logo_img {
+    width: 120px;
+    height: 120px;
+}
+.navbar {
+    padding: 2% 0 2% 16%;
+}
+.small_ig {
+    margin-top: 70px;
+}
+.footer {
+    margin-top: 30px;
+}
+.car_sec {
+    margin-top: 150px;
+}
+.hp_ifrm {
+    height: 200px;
+}
+.main_info img {
+    height: 650px;
+}
+.sub_info img {
+    height: 240px;
+}
+.stack {
+    top: 12%!important;
+}
+.stack ul li a {
+    padding: 5px 5px;
+}
+.small_ig_gho {
+    margin-top: 130px;
+}
+
+
+
+	
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width : 576px){
+	
+.logo_img {
+    width: 120px;
+    height: 120px;
+}
+.logo {
+    left: 37%;
+}
+.navbar ul li{
+	float:left;
+}
+.language_button {
+    padding-top: 35%;
+}
+.small_ig {
+    margin-top: 80px;
+}
+.small_ig_gho {
+    margin-top: 215px;
+}
+.small_info_1 {
+    margin: 20px 0;
+}
+.os_section .owl-item img {
+    height: 240px;
+}
+.footer {
+    margin-top: 20px;
+}
+.os_section .owl-nav .owl-next {
+    top: 16%;
+}
+
+.os_section .owl-nav .owl-prev {
+    top: 16%;
+}
+.main_info img {
+    height: 300px;
+}
+.video_section_vd {
+    margin-top: 230px;
+}
+.ic_for_smdev{
+	display:block;
+}
+.stack{
+	display:none;
+}
+.car_sec {
+    margin-top: 235px;
+}
+.small_info_1 img {
+    height: 400px;
+}
+
+	
+
+}

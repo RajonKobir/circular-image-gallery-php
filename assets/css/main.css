@@ -1,0 +1,205 @@
+
+
+body{
+	background:#000;
+}
+.heading_section h1{
+	color:#fff;
+}
+.circular_image_gallery{
+    margin: 2% -3%;
+}
+.circular_image_gallery_inner{
+    padding: 2% 19%;
+}
+.bigger_circle{
+	position:relative;
+	width:800px;
+	height:800px;
+	background:blue;
+	border-radius:50%;
+	z-index:1;
+}
+.medium_circle{
+	position:absolute;
+	width:65%;
+	height:65%;
+	background:#03BFFF;
+	border-radius:50%;
+	z-index:2;
+}
+.smaller_circle {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-image: url("../images/imageiamimage .png");
+	background-position: center center;
+	background-size: 333% 247%;
+	background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+
+
+.upload_button{
+	display:none;
+}
+.submit_button {
+    position: absolute;
+    left: 25%;
+    top: 64%;
+}
+.camera_icon{
+	font-size:50px;
+	cursor:pointer;
+	position:absolute;
+	left:30%;
+	top:30%;
+}
+.image_1{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.text_1{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+}
+.delete_btn{
+	position:absolute;
+	right:28%;
+	top:49%;
+	z-index:4;
+	display:none;
+}
+.zoom_btn{
+	position:absolute;
+	right:48%;
+	top:49%;
+	z-index:4;
+	display:none;
+}
+.zoom_btn i{
+	color:yellow;
+	font-size:30px;
+}
+.delete_icon{
+	color:#FB3A2B;
+	font-size:30px;
+}
+.image_position:hover .delete_btn{
+    display:block;
+}
+.image_position:hover .zoom_btn{  
+    display:block;
+}
+
+
+
+
+
+.image_position{
+	position:relative;
+    width: 150px;
+    height: 150px;
+    background: #999;
+    z-index: 99;
+}
+.position_1 {
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+.position_2 {
+    position: absolute;
+    top: 3%;
+    left: 9%;
+    transform: rotate(45deg);
+}
+.position_3 {
+    position: absolute;
+    top: 3%;
+    right: 9%;
+    transform: rotate(-45deg);
+}
+.position_4 {
+    position: absolute;
+    top: 41%;
+    left: -7%;
+}
+.position_5 {
+    position: absolute;
+    top: 40%;
+    right: -6%;
+}
+.position_6 {
+    position: absolute;
+    bottom: 3%;
+    left: 9%;
+    transform: rotate(45deg);
+}
+.position_7 {
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    transform: rotate(-45deg);
+}
+.position_8 {
+    position: absolute;
+    bottom: 0%;
+    left: 41%;
+}
+.position_9 {
+    position: absolute;
+    top: 2%;
+    left: 12%;
+    transform: rotate(45deg);
+}
+.position_10 {
+    position: absolute;
+    top: 2%;
+    right: 12%;
+    transform: rotate(-45deg);
+}
+.position_11 {
+    position: absolute;
+    top: 36%;
+    left: -5%;
+}
+.position_12 {
+    position: absolute;
+    top: 35%;
+    right: -4%;
+}
+.position_13 {
+    position: absolute;
+    bottom: 2%;
+    left: 12%;
+    transform: rotate(45deg);
+}
+.position_14 {
+    position: absolute;
+    bottom: 2%;
+    right: 12%;
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
